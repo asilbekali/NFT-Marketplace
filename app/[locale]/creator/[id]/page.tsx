@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const SingleCreator = () => {
-  return (
-    <div>Created part</div>
-  )
-}
+    return <div>Created part</div>;
+};
 
-export default SingleCreator
+export default SingleCreator;

@@ -6,16 +6,6 @@
       "static/css/app/[locale]/layout.css",
       "static/chunks/app/[locale]/layout.js"
     ],
-    "/[locale]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/page.js"
-    ],
-    "/[locale]/[...notFound]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/[...notFound]/page.js"
-    ],
     "/[locale]/creator/[id]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
