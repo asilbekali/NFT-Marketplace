@@ -22,10 +22,31 @@ const Button: React.FC<ButtonType> = ({
     className,
 }) => {
     const baseStyles =
-        "flex items-center justify-center gap-[10px] px-[20px] py-[10px] rounded-[10px] text-[16px] font-medium transition-all duration-300";
-    const filledStyles = "bg-white text-black hover:bg-opacity-90";
-    const outlinedStyles =
-        "border border-white text-white hover:bg-white hover:text-black";
+        "flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-base font-semibold transition-all duration-300 ease-in-out transform";
+
+    const filledStyles = `
+    bg-[#A259FF] 
+    text-white 
+    shadow-md 
+    hover:bg-[#944dff] 
+    hover:shadow-lg 
+    active:scale-95 
+    focus:ring-2 
+    focus:ring-[#A259FF]/50 
+    focus:outline-none
+  `;
+
+    const outlinedStyles = `
+    border-2 
+    border-[#A259FF] 
+    text-[#A259FF] 
+    hover:bg-[#A259FF] 
+    hover:text-white 
+    active:scale-95 
+    focus:ring-2 
+    focus:ring-[#A259FF]/50 
+    focus:outline-none
+  `;
 
     const combinedClass = classNames(
         baseStyles,

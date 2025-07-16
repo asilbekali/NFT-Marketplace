@@ -5,15 +5,10 @@
         "app/[locale]/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fasilbek%2FDesktop%2FNFT_project2%2Fservice%2FgetRequest.tsx%22%2C%5B%7B%22id%22%3A%227fafcb415af49f7a2d7c8a8d2aca1bad70374275d3%22%2C%22exportedName%22%3A%22getRequest%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
-        },
-        "app/[locale]/creator/[id]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fasilbek%2FDesktop%2FNFT_project2%2Fservice%2FgetRequest.tsx%22%2C%5B%7B%22id%22%3A%227fafcb415af49f7a2d7c8a8d2aca1bad70374275d3%22%2C%22exportedName%22%3A%22getRequest%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
         }
       },
       "layer": {
-        "app/[locale]/page": "rsc",
-        "app/[locale]/creator/[id]/page": "rsc"
+        "app/[locale]/page": "rsc"
       }
     }
   },
