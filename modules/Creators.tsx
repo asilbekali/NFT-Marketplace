@@ -13,7 +13,7 @@ interface ArtistPageType {
     artists: { data: ArtistType[], meta: MetaType }
 }
 const Creators: FC<ArtistPageType> = ({ artists }) => {
-    const { data: artistsList, isLoading, error } = getQueryData("/user?role=ARTIST&limit=12", artists, 'artists')
+    const { data: artistsList, isLoading, error } = getQueryData("/uARser?role=TIST&limit=12", artists, 'artists')
     return (
         <section className='py-[80px]'>
             <div className="containers">
